@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "contain";
+  src: url("/public/fonts/Caveat-Regular.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: "congo";
+  src: url("/public/fonts/PFHandbookPro-Regular.ttf") format('truetype');
+}
+/* Define base light mode styles */
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #f7f7f7;
+
+  .contact-c {
+    background-color: #121212;
+    color: #f7f7f7;
+
+  }
+  a{
+    color:white ;
+
+  }
+  .services-c{
+    background-color: #121212;
+    color: #f7f7f7;
+    h1,h2,h3,h5,h6,p{
+      color: white;
+    }
+  }
+}
+
+/* Additional dark mode styles for other elements */
+.header-dark-mode {
+  background-color: #1a1a1a;
+  color: #eaeaea;
+}
+
+.footer-dark-mode {
+  background-color: #1a1a1a;
+  color: #eaeaea;
+}
+
+/* Add more dark mode styles as needed */

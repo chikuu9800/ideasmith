@@ -1,0 +1,46 @@
+/* Pin container */
+.pin-container {
+    position: relative; /* Ensure proper layout */
+  }
+  
+  /* Basic styling for images */
+  img {
+    transition: opacity 0.5s ease;
+  }
+  
+  /* Hide elements */
+  .hidden {
+    display: none; /* Initially hidden */
+  }
+  
+  /* Show the third image */
+  .show-third {
+    display: none; /* Initially hidden */
+  }
+  
+  .right{
+    position: relative;
+}
+
+.wizard{
+    position: absolute;
+    right: 0;
+}
+.wand{
+  position: absolute;
+  left: 30px;
+  opacity: 0;
+}
+.burst{
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  left: 50%;
+  top: 50%;
+}
+.bulb{
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}

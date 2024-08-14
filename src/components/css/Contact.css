@@ -1,0 +1,78 @@
+/* Contact.css */
+
+h2 {
+  color: #333;
+  font-family: 'contain' !important;
+}
+
+.contact-container {
+  background-color: #f9f9f9;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
+  button {
+    margin: 10px;
+  }
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+}
+
+button:hover {
+  background-color: #EB2026;
+}
+
+.contact-container {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-heading {
+  color: #343a40;
+  font-family: 'contain' !important;
+
+}
+
+h3,
+h1,
+h4,
+h5 {
+  font-family: 'contain' !important;
+}
+
+.address {
+  background-color: #e9ecef;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+label,
+p {
+  font-family: "congo";
+}
+
+.address h4 {
+  margin-bottom: 10px;
+  color: #495057;
+  font-family: 'contain';
+}
+
+.address p {
+  margin: 0;
+  color: #6c757d;
+}
+
+.address a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.address a:hover {
+  text-decoration: underline;
+}

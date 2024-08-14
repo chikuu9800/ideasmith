@@ -1,0 +1,58 @@
+
+footer .upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper .connect {
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+}
+
+.f-icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.f-para p {
+    margin: 0;
+    font-size: 16px;
+    color: #616183;
+}
+
+footer .container-xxl {
+    padding: 10px 30px !important;
+
+}
+
+footer .lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lower ul {
+    display: flex;
+    padding: 0;
+}
+
+.lower li {
+    text-decoration: none;
+    list-style: none;
+    margin-right: 20px;
+    text-transform: capitalize;
+    font-size: 12px;
+    padding: 0;
+}
+
+.copyright {
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+
+

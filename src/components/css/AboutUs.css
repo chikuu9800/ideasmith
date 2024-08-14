@@ -1,0 +1,52 @@
+.about-us {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .hero-about {
+    /* background: url('images/hero-background.jpg') no-repeat center center; */
+    background-size: cover;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+  }
+  
+  .team {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .team-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    margin: 15px;
+    width: 200px;
+  }
+  
+  .team-member img {
+    width: 100%;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+  }
+  
+  .team-member img:hover {
+    transform: scale(1.1);
+  }
+  
+  .timeline {
+    padding: 50px 20px;
+  }
+  
+  .event {
+    margin-bottom: 20px;
+  }
+  
